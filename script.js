@@ -126,3 +126,17 @@ return combinedArr;
 let names = ["Ram", "Shyam", "Mohan"];
 let marks = [80, 90, 85];
 console.log(nameAndarray(names, marks));
+
+
+// // 02-06-2025--------------------------
+// let arr=[1,2,4,5]
+// arr.splice(2,0,3)//add number 
+// console.log(arr);
+
+let arr=[1,2,3,4]
+arr.map((getLastItem,indexedDB,arrr)=>{
+    arrr.push(55)
+})
+console.log(arr);
+
+
